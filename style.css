@@ -17,12 +17,16 @@ header, main, footer {
 	
 }
 
-header, main h1 {
-   color: #D0F8FF;
-   text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
-           0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
-           0 0 40px #A5F1FF;
+p {
+	 font-family:georgia,serif;
+	color:#381704;
+	font-size:12px;
+	font-weight:normal;
+	line-height:150%;
+	padding:0px; 
 }
+
+
 }
 
 a, a:visited {
@@ -84,5 +88,9 @@ article {
 	}
 	
 	
-header {
-  
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
