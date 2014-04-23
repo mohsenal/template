@@ -18,9 +18,9 @@ header, main, footer {
 }
 
 p {
-	 font-family:georgia,serif;
-	color:#381704;
-	font-size:12px;
+	 font-family:Tahoma;
+	color:#F3F2C4;
+	font-size:16px;
 	font-weight:normal;
 	line-height:150%;
 	padding:0px; 
@@ -87,10 +87,15 @@ article {
 	float:right;
 	}
 	
-	
 h1 {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font: bold 330%/100% "Lucida Grande";
+  position: relative;
+  color: #464646;
+}
+h1 span {
+  background: url(http://www.vanseodesign.com/blog/wp-content/uploads/2012/11/linear-gradient.png) repeat-x;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 31px;
 }
