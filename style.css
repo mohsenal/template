@@ -17,21 +17,23 @@ header, main, footer {
 }
 
 header, main h1 {
-	color:#00ff00;
+	color:#f8db84;
 }
 
 a, a:visited {
-	color:#c0c0c0;
+	color:#bd9600;
 	text-decoration:none;
 }
 
 a:hover {
-	color: #77ccee;
+	color: #fff800;
 	text-decoration: none;
 }
 
 #nav {
-	list-style: none;
+	
+list-style-image:url(http://konsul-psi.ru/uploads/knopki/moins.png);
+
 	width:960px;
 	margin-left:-40px;
 
