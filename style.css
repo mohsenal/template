@@ -4,7 +4,10 @@ body {
 	font-family:Courier;
 	width:960px;
 	margin:auto;
+	background-image:url('http://www.commentnation.com/backgrounds/images/dark_walnut_woodgrain_seamless_background_tileable.jpg');
+	background-repeat:repeat;
 }
+
 
 
 header, main, footer {
